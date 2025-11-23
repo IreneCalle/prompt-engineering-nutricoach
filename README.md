@@ -3,7 +3,8 @@
 Asistente conversacional de suplementación personalizada con IA.
 Es un proyecto cuyo objetivo es recrear un flujo de chatbot completo con el que interiorizar el flujo y la terminología del prompting.
 Siéntete libre de copiarlo, ampliarlo, mejorarlo, compartirlo, y enviar cualuqier feedback o crítica que consideres oportuna.
-
+Está hecho con la ayuda de la IA, te invito a versionarlo y compartur el resultado conmigo: ireneccprogramacion@gmail.com
+**Importante**: este es un proyecto personal sin carácter científico. La nutrición y la suplementación deben realizarse bajo la supervisión de profesionales cualificados.
 ---
 
 ## 🎯 ¿Qué es esto?
@@ -90,7 +91,7 @@ nutricoach-pro/
 
 ---
 
-## 🧠 Qué Puedes Aprender del Código
+## 🧠 Qué podrías aprender con este proyecto
 
 ### **1. Prompt Engineering**
 ```javascript
@@ -101,7 +102,7 @@ Responde SOLO con JSON...`;
 ```
 → Aprende a estructurar prompts para obtener JSON parseable
 
-### **2. RAG Simple pero Efectivo**
+### **2. RAG (simple, pero funcional)**
 ```javascript
 // Sistema de scoring basado en tags
 if (goal.includes('deport')) tags = ['deportista', 'musculo'];
@@ -109,7 +110,8 @@ if (goal.includes('deport')) tags = ['deportista', 'musculo'];
 ```
 → No siempre necesitas embeddings complejos
 
-### **3. Manejo de Estado en React**
+### **3. El manejo de estado en react**
+Esta parte puede ser poco intuitiva, dedica tu tiemplo a ella si vienes de otros lenguajes back
 ```javascript
 const [phase, setPhase] = useState(1);  // Flujo conversacional
 const [userProfile, setUserProfile] = useState({});  // Contexto
@@ -129,7 +131,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
 
 ### **5. Diseño UI Moderno**
 - Fuentes Google Fonts custom
-- Gradientes y colores flat (salmón/coral)
+- Gradientes y colores flat
 - Responsive design
 - Tailwind CSS utility-first
 
@@ -202,7 +204,7 @@ Usuario puede enviar por email
 
 ---
 
-## 🚀 Deploy Rápido
+## 🚀 Deploy rápido
 
 ### **Netlify (30 segundos):**
 1. [app.netlify.com/drop](https://app.netlify.com/drop)
