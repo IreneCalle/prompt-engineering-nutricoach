@@ -6,7 +6,6 @@ Es un proyecto cuyo objetivo es recrear un flujo de chatbot completo con el que 
 Siéntete libre de copiarlo, ampliarlo, mejorarlo, compartirlo, y enviar cualuqier feedback o crítica que consideres oportuna.
 Está hecho con la ayuda de la IA, te invito a versionarlo y compartur el resultado conmigo: ireneccprogramacion@gmail.com
 
-#######**Importante**: este es un proyecto personal sin carácter científico. La nutrición y la suplementación deben realizarse bajo la supervisión de profesionales cualificados.
 ---
 
 ## 🎯 ¿Qué es esto?
