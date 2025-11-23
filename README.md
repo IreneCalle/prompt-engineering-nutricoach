@@ -1,4 +1,4 @@
-# 🌱 NutriCoach Pro - AI Supplement Advisor
+# 🌱 NutriCoach - AI  advisor
 
 Asistente conversacional de suplementación personalizada con IA.
 Es un proyecto cuyo objetivo es recrear un flujo de chatbot completo con el que interiorizar el flujo y la terminología del prompting.
@@ -8,7 +8,7 @@ Está hecho con la ayuda de la IA, te invito a versionarlo y compartur el result
 
 ---
 
-## 🎯 ¿Qué es esto?
+##  ¿Qué es esto?
 
 Un chatbot inteligente que te ayuda a elegir suplementos basándose en:
 - Tu objetivo (deporte, salud, sueño, pérdida de peso, etc.)
@@ -24,7 +24,7 @@ Un chatbot inteligente que te ayuda a elegir suplementos basándose en:
 
 ---
 
-## 🚀 Cómo Usarlo
+##  Cómo usarlo
 
 Te dejo varias opciones.
 En este proyecto la prioridad es el código, así que todas son simples.
