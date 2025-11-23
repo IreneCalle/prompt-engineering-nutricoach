@@ -1,0 +1,239 @@
+{
+  "supplements": [
+    {
+      "id": "vitamin-d3",
+      "name": "Vitamina D3",
+      "dosage": "2000-4000 UI/día",
+      "timing": "Con comida (mejora absorción)",
+      "tags": ["huesos", "inmunidad", "animo", "general", "energia"],
+      "profiles": ["sedentario", "activo", "senior", "deportista", "estudiante"],
+      "benefits": "Esencial para la salud ósea, función inmune, estado de ánimo y producción de energía. Especialmente importante en climas con poca exposición solar.",
+      "warnings": "Consultar si tomas medicación para el corazón. No exceder 10,000 UI sin supervisión médica.",
+      "interactions": []
+    },
+    {
+      "id": "omega-3",
+      "name": "Omega-3 (EPA/DHA)",
+      "dosage": "1000-2000mg/día (combinado EPA+DHA)",
+      "timing": "Con comida principal",
+      "tags": ["corazon", "cerebro", "inflamacion", "deportista", "general"],
+      "profiles": ["sedentario", "activo", "deportista", "senior"],
+      "benefits": "Salud cardiovascular, función cerebral, reducción de inflamación. Crítico para deportistas y salud cognitiva.",
+      "warnings": "Puede aumentar riesgo de sangrado si tomas anticoagulantes.",
+      "interactions": ["anticoagulantes"]
+    },
+    {
+      "id": "magnesio",
+      "name": "Magnesio (Glicinato/Citrato)",
+      "dosage": "300-400mg/día",
+      "timing": "Noche (promueve relajación)",
+      "tags": ["sueno", "musculos", "estres", "energia", "deportista"],
+      "profiles": ["activo", "deportista", "estresado", "senior"],
+      "benefits": "Relajación muscular, calidad del sueño, producción de energía, manejo del estrés. Fundamental para deportistas.",
+      "warnings": "Evitar si tienes problemas renales. Forma citrato puede causar efecto laxante.",
+      "interactions": ["antibioticos"]
+    },
+    {
+      "id": "proteina-whey",
+      "name": "Proteína Whey",
+      "dosage": "20-40g/día post-entreno",
+      "timing": "Post-entrenamiento (ventana anabólica)",
+      "tags": ["musculo", "recuperacion", "deportista", "perdida-peso"],
+      "profiles": ["deportista", "activo"],
+      "benefits": "Construcción y recuperación muscular, saciedad, pérdida de grasa preservando músculo.",
+      "warnings": "Evitar si intolerancia a la lactosa (usar aislado). No sustituye comidas completas.",
+      "interactions": []
+    },
+    {
+      "id": "creatina",
+      "name": "Creatina Monohidrato",
+      "dosage": "3-5g/día",
+      "timing": "Post-entrenamiento o cualquier momento",
+      "tags": ["musculo", "fuerza", "deportista", "rendimiento"],
+      "profiles": ["deportista", "activo"],
+      "benefits": "Mejora fuerza, potencia, masa muscular y recuperación. El suplemento más estudiado y efectivo para rendimiento.",
+      "warnings": "Puede causar retención de agua. Beber abundante líquido. Consultar si problemas renales.",
+      "interactions": []
+    },
+    {
+      "id": "vitamina-c",
+      "name": "Vitamina C",
+      "dosage": "500-1000mg/día",
+      "timing": "Mañana con desayuno",
+      "tags": ["inmunidad", "antioxidante", "general", "deportista"],
+      "profiles": ["sedentario", "activo", "deportista", "senior", "estudiante"],
+      "benefits": "Función inmune, producción de colágeno, antioxidante, recuperación deportiva.",
+      "warnings": "Dosis muy altas (>2000mg) pueden causar molestias digestivas.",
+      "interactions": []
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "dosage": "15-30mg/día",
+      "timing": "Con comida (evita náuseas)",
+      "tags": ["inmunidad", "testosterona", "general", "deportista"],
+      "profiles": ["activo", "deportista", "senior"],
+      "benefits": "Sistema inmune, producción hormonal, recuperación de tejidos, salud de la piel.",
+      "warnings": "No exceder 40mg/día. Puede interferir con absorción de cobre.",
+      "interactions": ["antibioticos"]
+    },
+    {
+      "id": "cafeina",
+      "name": "Cafeína",
+      "dosage": "100-200mg pre-entreno",
+      "timing": "60-90 min antes del ejercicio",
+      "tags": ["energia", "rendimiento", "foco", "perdida-peso"],
+      "profiles": ["deportista", "activo", "estudiante"],
+      "benefits": "Mejora rendimiento físico, foco mental, oxidación de grasas, resistencia.",
+      "warnings": "Evitar si sensibilidad a estimulantes. No tomar después de las 16h.",
+      "interactions": []
+    },
+    {
+      "id": "probioticos",
+      "name": "Probióticos (Multi-cepa)",
+      "dosage": "10-50 mil millones UFC/día",
+      "timing": "Mañana en ayunas",
+      "tags": ["digestion", "inmunidad", "general"],
+      "profiles": ["sedentario", "activo", "deportista", "senior"],
+      "benefits": "Salud digestiva, función inmune, absorción de nutrientes, salud mental (eje intestino-cerebro).",
+      "warnings": "Empezar con dosis bajas. Refrigerar si es necesario según marca.",
+      "interactions": ["antibioticos"]
+    },
+    {
+      "id": "colageno",
+      "name": "Colágeno Hidrolizado",
+      "dosage": "10-20g/día",
+      "timing": "Mañana o post-entreno",
+      "tags": ["articulaciones", "piel", "recuperacion", "senior"],
+      "profiles": ["deportista", "senior", "activo"],
+      "benefits": "Salud articular, elasticidad de piel, recuperación de tejidos conectivos.",
+      "warnings": "Tomar con vitamina C para mejor síntesis. Alérgicos a pescado: verificar origen.",
+      "interactions": []
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAAs (2:1:1)",
+      "dosage": "5-10g durante entreno",
+      "timing": "Durante o post-entrenamiento",
+      "tags": ["musculo", "recuperacion", "deportista", "perdida-peso"],
+      "profiles": ["deportista", "activo"],
+      "benefits": "Reducción de catabolismo muscular, recuperación, síntesis proteica. Útil en déficit calórico.",
+      "warnings": "Menos necesario si consumes suficiente proteína total. No sustituye proteína completa.",
+      "interactions": []
+    },
+    {
+      "id": "melatonina",
+      "name": "Melatonina",
+      "dosage": "0.5-5mg/noche",
+      "timing": "30-60 min antes de dormir",
+      "tags": ["sueno", "recuperacion", "estres"],
+      "profiles": ["estresado", "deportista", "estudiante"],
+      "benefits": "Mejora latencia y calidad del sueño, jet lag, recuperación nocturna.",
+      "warnings": "Empezar con dosis mínima (0.5mg). Puede causar somnolencia matutina.",
+      "interactions": ["anticoagulantes", "inmunodepresores"]
+    },
+    {
+      "id": "vitamina-b12",
+      "name": "Vitamina B12 (Metilcobalamina)",
+      "dosage": "500-1000mcg/día",
+      "timing": "Mañana",
+      "tags": ["energia", "cerebro", "general", "vegano"],
+      "profiles": ["sedentario", "activo", "senior", "vegano"],
+      "benefits": "Producción de energía, función neurológica, formación de glóbulos rojos. Crítico para veganos.",
+      "warnings": "Esencial para dietas vegetarianas/veganas. Déficit común en +50 años.",
+      "interactions": []
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha (KSM-66)",
+      "dosage": "300-600mg/día",
+      "timing": "Noche (reduce cortisol)",
+      "tags": ["estres", "animo", "testosterona", "sueno"],
+      "profiles": ["estresado", "deportista", "activo"],
+      "benefits": "Reducción de cortisol y estrés, mejora de sueño, posible aumento de testosterona, rendimiento.",
+      "warnings": "Evitar en embarazo. Puede interactuar con medicación tiroidea.",
+      "interactions": ["hormonas-tiroideas", "inmunodepresores"]
+    },
+    {
+      "id": "hierro",
+      "name": "Hierro (Bisglicinato)",
+      "dosage": "18-27mg/día (mujeres), 8mg (hombres)",
+      "timing": "Mañana en ayunas con vitamina C",
+      "tags": ["energia", "sangre", "general", "mujer"],
+      "profiles": ["activo", "deportista", "mujer"],
+      "benefits": "Producción de hemoglobina, transporte de oxígeno, prevención de anemia. Crítico para mujeres.",
+      "warnings": "No tomar si no hay déficit confirmado. Puede causar estreñimiento. Forma bisglicinato mejor tolerada.",
+      "interactions": ["antibioticos", "antiácidos"]
+    },
+    {
+      "id": "curcuma",
+      "name": "Cúrcuma (95% Curcumina)",
+      "dosage": "500-1000mg/día con pimienta negra",
+      "timing": "Con comidas",
+      "tags": ["inflamacion", "antioxidante", "articulaciones", "deportista"],
+      "profiles": ["deportista", "activo", "senior"],
+      "benefits": "Potente antiinflamatorio natural, antioxidante, salud articular, recuperación.",
+      "warnings": "Tomar con pimienta negra (piperina) para absorción. Puede interactuar con anticoagulantes.",
+      "interactions": ["anticoagulantes"]
+    },
+    {
+      "id": "beta-alanina",
+      "name": "Beta-Alanina",
+      "dosage": "2-5g/día",
+      "timing": "Pre-entreno o dividido en el día",
+      "tags": ["rendimiento", "resistencia", "deportista"],
+      "profiles": ["deportista", "activo"],
+      "benefits": "Mejora capacidad de trabajo de alta intensidad, resistencia muscular, retraso de fatiga.",
+      "warnings": "Puede causar parestesia (hormigueo) temporal e inofensivo.",
+      "interactions": []
+    },
+    {
+      "id": "l-teanina",
+      "name": "L-Teanina",
+      "dosage": "100-200mg/día",
+      "timing": "Con cafeína o mañana",
+      "tags": ["foco", "estres", "animo", "estudiante"],
+      "profiles": ["estudiante", "estresado", "activo"],
+      "benefits": "Foco sin ansiedad, sinergia con cafeína, relajación sin somnolencia, claridad mental.",
+      "warnings": "Muy segura. Combinar con cafeína 1:2 (ej: 100mg teanina + 200mg cafeína).",
+      "interactions": []
+    },
+    {
+      "id": "glucosamina-condroitina",
+      "name": "Glucosamina + Condroitina",
+      "dosage": "1500mg glucosamina + 1200mg condroitina/día",
+      "timing": "Con comidas",
+      "tags": ["articulaciones", "senior", "deportista"],
+      "profiles": ["senior", "deportista"],
+      "benefits": "Salud del cartílago, reducción de dolor articular, movilidad. Efectivo a largo plazo.",
+      "warnings": "Resultados tras 2-3 meses de uso. Evitar si alergia a mariscos (glucosamina derivada).",
+      "interactions": ["anticoagulantes"]
+    },
+    {
+      "id": "multivitaminico",
+      "name": "Multivitamínico Completo",
+      "dosage": "1 dosis según etiqueta",
+      "timing": "Con desayuno",
+      "tags": ["general", "base", "inmunidad"],
+      "profiles": ["sedentario", "activo", "estudiante", "senior"],
+      "benefits": "Cobertura de micronutrientes básicos, prevención de déficits, base nutricional sólida.",
+      "warnings": "No sustituye dieta variada. Elegir sin mega-dosis. Verificar contenido de hierro según necesidad.",
+      "interactions": []
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-19",
+    "total_supplements": 20,
+    "tags_available": [
+      "huesos", "inmunidad", "animo", "general", "energia", "corazon", 
+      "cerebro", "inflamacion", "deportista", "sueno", "musculos", "estres",
+      "recuperacion", "perdida-peso", "fuerza", "rendimiento", "antioxidante",
+      "testosterona", "foco", "digestion", "articulaciones", "piel", "sangre",
+      "mujer", "vegano", "senior", "estudiante", "base"
+    ],
+    "profiles_available": [
+      "sedentario", "activo", "deportista", "senior", "estudiante", "estresado", "mujer", "vegano"
+    ]
+  }
+}
